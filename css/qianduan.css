@@ -1,0 +1,513 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+html{
+	overflow: hidden;
+	position: relative;
+}
+body{
+	overflow: scroll;
+}
+header{
+	width:100%;
+	height:0.91rem;
+	background: #0078E6;
+	position: absolute;
+	top: 0rem;
+	z-index: 999;
+}
+header img{
+	width: 0.72rem;
+	height: 0.7rem;
+    margin-left: 2.72rem;
+    margin-top: 0.15rem;
+}
+header span{
+	font-size: 0.36rem;
+	font-weight: bold;
+	color: white;
+	display: inline-block;
+    transform: translate(0.1rem,-0.23rem);
+}
+.barner{
+	width:100%; 
+	height: 4.31rem;
+    background: url('../img/banner_02.png') center center no-repeat;
+    background-size: cover;
+}
+
+article{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	border: 0.01rem solid #ADADAD;
+	background: #F5F6FA;
+	margin: 0rem auto;
+}
+
+.num1{
+	width: 7.02rem;
+	height: 0.82rem;
+	margin: 0rem auto;
+	line-height: 0.82rem;
+}
+.num1 span{
+	font-size: 0.22rem;
+	color:#494747;
+	font-weight:bold;
+}
+.num1 a{
+	text-decoration: none;
+	font-size: 0.3rem;
+	color: #494747;
+	margin:0.03rem;
+}
+
+.num2{
+	width: 7.02rem;
+	height: 2.25rem;
+	background: #FFFFFF;
+	margin:0rem auto;
+	margin-bottom: 0.1rem;
+	position: relative;
+}
+.num2 ul{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 0rem 0.2rem;
+}
+.num2 ul li{
+	width: 25%;
+	height: 100%;
+	text-align: center;
+	float: left;
+}
+.num2 ul li img{
+	display: block;
+	width: 1.26rem;
+	height: 1.26rem;
+    margin-top: 0.25rem;
+    margin-left: 0.2rem;
+}
+.num2 ul li span{
+	display: block;
+	font-size: 0.22rem;
+    margin-top: 0.18rem;
+}
+
+.num3{
+	width: 7.02rem;
+	height: 4.68rem;
+	background: #FFFFFF;
+	margin:0rem auto;
+	margin-bottom: 0.1rem;
+	position: relative;
+}
+.num3 .top{
+	width: 6.4rem;
+	height: 0.68rem;
+	margin-left: 0.42rem;
+	border-bottom: 0.01rem dashed #999999;
+}
+.num3 .top span{
+	width: 0.04rem;
+	height: 0.22rem;
+	background: #01B5FF;
+	position: absolute;
+	top:0.27rem;
+	left:0.19rem;
+}
+.num3 .top strong{
+	font-size: 0.22rem;
+    display: inline-block;
+    margin-top:0.25rem;
+}
+.num3 p{
+	width:6.4rem;
+	height: 3.95rem;
+	margin-left: 0.42rem;
+	line-height: 0.35rem
+}
+.num3 p span{
+	font-size:0.24rem;
+	color: #666666;
+}
+.num3 p i{
+	font-style: normal;
+	font-size:0.24rem;
+	color: #01B5FF;
+	font-weight: bold;
+}
+
+.num4{
+	width: 7.02rem;
+	height: 5.76rem;
+	background: #FFFFFF;
+	margin:0rem auto;
+	margin-bottom: 0.1rem;
+	position: relative;
+}
+.num4 .top{
+	width: 6.4rem;
+	height: 0.68rem;
+	margin-left: 0.42rem;
+	border-bottom: 0.01rem dashed #999999;
+}
+.num4 .top span{
+	width: 0.04rem;
+	height: 0.22rem;
+	background: #01B5FF;
+	position: absolute;
+	top:0.27rem;
+	left:0.19rem;
+}
+.num4 .top strong{
+	font-size: 0.22rem;
+    display: inline-block;
+    margin-top:0.25rem;
+}
+.num4 img{
+	width: 6.4rem;
+	height: 3.7rem;
+	margin-left: 0.42rem;
+	margin-top:0.44rem;
+}
+
+
+.num4 b{
+	font-size: 0.24rem;
+	color: #0E050A;
+	display: block;
+    margin-top:0.3rem; 
+	margin-left: 2.22rem;
+}
+
+.num5{
+	width: 7.02rem;
+	height: 5.55rem;
+	background: #FFFFFF;
+	margin:0rem auto;
+	margin-bottom: 0.1rem;
+	position: relative;
+}
+.num5 .top{
+	width: 6.4rem;
+	height: 0.68rem;
+	margin-left: 0.42rem;
+	border-bottom: 0.01rem dashed #999999;
+}
+.num5 .top span{
+	width: 0.04rem;
+	height: 0.22rem;
+	background: #01B5FF;
+	position: absolute;
+	top:0.27rem;
+	left:0.19rem;
+}
+.num5 .top strong{
+	font-size: 0.22rem;
+    display: inline-block;
+    margin-top:0.25rem;
+}
+.num5 ul{
+	width: 6.4rem;
+	height: 4.85rem;
+    margin-left: 0.42rem;
+    overflow: hidden;
+}
+.num5 ul li{
+	width: 100%;
+	height: 0.56rem;
+    margin-top: 0.2rem;
+}
+.num5 ul li img{
+	width: 0.56rem;
+	height: 0.56rem;
+	float: left;
+}
+.num5 ul li .right{
+	width: 5.5rem;
+	height: 100%;
+	float: left;
+	margin-left: 0.2rem;
+	overflow: hidden;
+}
+.num5 ul li span{
+	font-size: 0.22rem;
+	color: #01B5FF;
+	display: block;
+	margin: 0.06rem 0rem;
+}
+.num5 ul li i{
+	font-style: normal;
+	font-size: 0.16rem;
+	color: #3E3A39;
+}
+
+.num6{
+	width: 7.02rem;
+	height: 4.98rem;
+	background: #FFFFFF;
+	margin:0rem auto;
+	margin-bottom: 0.1rem;
+	position: relative;
+}
+.num6 .top{
+	width: 6.4rem;
+	height: 0.68rem;
+	margin-left: 0.42rem;
+	border-bottom: 0.01rem dashed #999999;
+}
+.num6 .top span{
+	width: 0.04rem;
+	height: 0.22rem;
+	background: #01B5FF;
+	position: absolute;
+	top:0.27rem;
+	left:0.19rem;
+}
+.num6 .top img{
+	width: 0.22rem;
+	height: 3.4rem;
+	position: absolute;
+	top:1.45rem;
+	left:0.18rem;
+}
+.num6 .top strong{
+	font-size: 0.22rem;
+    display: inline-block;
+    margin-top:0.25rem;
+}
+.num6 ul{
+	width: 6.4rem;
+	height: 4.25rem;
+	margin-left: 0.42rem;
+}
+.num6 ul pre{
+	font-size:0.22rem;
+	font-weight: bold;
+	height: 0.72rem;
+	line-height: 0.7rem;
+	margin-left: 0.20rem;
+}
+.num6 ul li{
+	width: 100%;
+	height: 0.70rem;
+}
+.num6 ul li span{
+	font-size: 0.22rem;
+	display: inline-block;
+	margin-left: 0.14rem;
+	margin-top: 0.18rem;
+}
+.num6 ul li i{
+	font-style: normal;
+	font-size: 0.22rem;
+	color: #FFA201;
+	display: inline-block;
+	margin-left: 0.38rem;
+	margin-top: 0.18rem;
+}
+.num6 ul li em{
+	font-style: normal;
+	font-size: 0.22rem;
+	display: inline-block;
+	margin-left: 0.30rem;
+	margin-top: 0.18rem;
+}
+
+.num7{
+	width: 7.02rem;
+	height: 4.98rem;
+	background: #FFFFFF;
+	margin:0rem auto;
+	margin-bottom: 0.1rem;
+	position: relative;
+}
+.num7 .top{
+	width: 6.4rem;
+	height: 0.68rem;
+	margin-left: 0.42rem;
+	border-bottom: 0.01rem dashed #999999;
+}
+.num7 .top span{
+	width: 0.04rem;
+	height: 0.22rem;
+	background: #01B5FF;
+	position: absolute;
+	top:0.27rem;
+	left:0.19rem;
+}
+.num7 .top strong{
+	font-size: 0.22rem;
+    display: inline-block;
+    margin-top:0.25rem;
+}
+.num7 .bottom{
+	width: 7.02rem;
+	height: 4.3rem;
+	position: relative;
+}
+.num7 .bottom .box1{
+	width: 1.1rem;
+	height: 1.1rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	line-height:1.1rem;
+	text-align: center;
+	color: white;
+	font-size: 0.22rem;
+    position: absolute;
+    top: 0.34rem;
+    left: 0.95rem;
+}
+.num7 .bottom .box2{
+	width: 1.39rem;
+	height: 1.39rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	line-height:1.39rem;
+	text-align: center;
+	color: white;
+	font-size: 0.22rem;
+    position: absolute;
+    top:1.42rem;
+    left: 0.35rem;
+}
+.num7 .bottom .box3{
+	width: 0.88rem;
+	height: 0.88rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	line-height:0.88rem;
+	text-align: center;
+	color: white;
+	font-size: 0.22rem;
+    position: absolute;
+    top:2.96rem;
+    left: 0.83rem;
+}
+.num7 .bottom .box4{
+	width: 0.88rem;
+	height: 0.88rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	line-height:0.88rem;
+	text-align: center;
+	color: white;
+	font-size: 0.22rem;
+    position: absolute;
+    top:1.22rem;
+    left: 1.73rem;
+}
+.num7 .bottom .box5{
+	width: 1.2rem;
+	height: 1.2rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	box-sizing: border-box;
+	padding-top: 0.32rem;
+	text-align: center;
+	color: white;
+	font-size: 0.22rem;
+    position: absolute;
+    top:2.14rem;
+    left: 1.68rem;
+}
+.num7 .bottom .box6{
+	width: 1.56rem;
+	height: 1.56rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	line-height:1.56rem;
+	text-align: center;
+	color: white;
+	font-size: 0.22rem;
+    position: absolute;
+    top:0.58rem;
+    left: 2.68rem;
+}
+.num7 .bottom .box7{
+	width: 1.43rem;
+	height: 1.43rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	box-sizing: border-box;
+	padding-top: 0.58rem;
+	text-align: center;
+	color: white;
+	font-size: 0.22rem;
+    position: absolute;
+    top:2.16rem;
+    left: 2.92rem;
+}
+.num7 .bottom .box8{
+	width: 1.23rem;
+	height: 1.23rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	line-height:1.23rem;
+	text-align: center;
+	color: white;
+	font-size: 0.22rem;
+    position: absolute;
+    top:1.4rem;
+    left:4.16rem;
+}
+.num7 .bottom .box9{
+	width: 1.4rem;
+	height: 1.4rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	line-height:1.4rem;
+	text-align: center;
+	color: white;
+	font-size: 0.22rem;
+    position: absolute;
+    top:2.66rem;
+    left:4.47rem;
+}
+.num7 .bottom .box10{
+	width: 1.1rem;
+	height: 1.1rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	line-height:1.1rem;
+	text-align: center;
+	color: white;
+	font-size: 0.22rem;
+    position: absolute;
+    top:0.35rem;
+    left:4.88rem;
+}
+.num7 .bottom .box11{
+	width: 1.23rem;
+	height: 1.23rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	line-height:1.23rem;
+	text-align: center;
+	color: white;
+	font-size: 0.22rem;
+    position: absolute;
+    top:1.39rem;
+    left:5.6rem;
+}
+
+footer{
+	width: 100%;
+	height: 0.92rem;
+	text-align: center;
+}
+footer span{
+	font-size: 0.2rem;
+	color: #666666;
+	display: inline-block;
+	height: 0.35rem;
+}
+footer span:first-child{
+	margin-top: 0.2rem;
+} 

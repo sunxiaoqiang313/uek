@@ -95,6 +95,10 @@ article{
 	height: 1.45rem;
 	background: #C8C8C8;
 }
+.num2 a .top .left img{
+	width:100%;
+	height:100%;
+}
 .num2 a .top .right{
 	width: 4.65rem;
 	height: 1.45rem;
